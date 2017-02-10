@@ -13,7 +13,7 @@ setup(
     version=__version__,
     url='https://github.com/HardRockMartian/swri_sphinx_theme/',
     license='MIT',
-    author='Anthony Egan,
+    author='HardRockMartian',
     author_email='anon@anon.net',
     description='Fork of ReadTheDocs.org theme for Sphinx, 2013 version.',
     long_description=open('README.rst').read(),
