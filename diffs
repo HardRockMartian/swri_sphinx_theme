@@ -1,0 +1,9 @@
+README.rst:.. _wyrm: http://www.github.com/snide/wyrm/
+README.rst:.. _#215: https://github.com/snide/swri_sphinx_theme/pull/215
+bower.json:  "homepage": "https://github.com/snide/wyrm",
+bower.json:    "Dave Snider <dave.snider@gmail.com>"
+sass/_theme_rst.sass://    1. Lots of this @extends from wyrm_core/_type.sass (http://www.github.com/snide/wyrm/.
+setup.py:.. _github: https://www.github.com/snide/swri_sphinx_theme
+setup.py:    url='https://github.com/snide/swri_sphinx_theme/',
+setup.py:    author_email='dave.snider@gmail.com',
+swri_sphinx_theme/footer.html:  {% trans %}Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/swri_sphinx_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>{% endtrans %}.
