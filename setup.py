@@ -23,6 +23,7 @@ setup(
         'theme.conf',
         '*.html',
         'static/css/*.css',
+        'static/css/*.css_t',
         'static/js/*.js',
         'static/font/*.*'
     ]},
