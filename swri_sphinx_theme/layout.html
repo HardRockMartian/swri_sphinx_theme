@@ -46,6 +46,9 @@
     <link rel="stylesheet" href="{{ pathto(cssfile, 1) }}" type="text/css" />
   {% endfor %}
 
+  {# AE: Couldn't get the above working even with the .css_t extension. Hardcoding my own CSS #}
+  <link rel="stylesheet" href="_static/css/julia.css_t", type="text/css" />
+
   {%- block linktags %}
     {%- if hasdoc('about') %}
         <link rel="author" title="{{ _('About these documents') }}"
