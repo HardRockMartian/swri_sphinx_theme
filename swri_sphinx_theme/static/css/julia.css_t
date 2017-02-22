@@ -71,3 +71,7 @@ code.descname, code.descclassname {
     display: block;
     margin: 1px 0;
 }
+
+.section #basic-2-flip-flop-synchronizer{
+     text-align:justify;
+}
