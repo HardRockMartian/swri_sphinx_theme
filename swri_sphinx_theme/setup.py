@@ -68,7 +68,7 @@ classifiers = [
 ]
 
 setup(
-    name='sphinxjp.themes.basicstrap',
+    name='swri_sphinx_theme',
     version=version,
     description='A sphinx theme for Basicstrap style. Using Twitter Bootstrap. #sphinxjp',  # NOQA
     long_description=long_description,
@@ -87,10 +87,10 @@ setup(
     include_package_data=True,
     entry_points="""
         [sphinx_themes]
-        path = sphinxjp.themes.basicstrap:get_path
+        path = swri_sphinx_theme:get_path
 
         [sphinx_directives]
-        setup = sphinxjp.themes.basicstrap:setup
+        setup = swri_sphinx_theme:setup
     """,
     zip_safe=False,
 )

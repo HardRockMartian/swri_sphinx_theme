@@ -8,7 +8,7 @@
 """
 
 from os import path
-from sphinxjp.themes.basicstrap import directives
+from swri_sphinx_theme import directives
 
 __version__ = '0.4.3'
 
