@@ -78,7 +78,7 @@ setup(
     author_email='ffk2005 at gmail dot com',
     url='https://github.com/tell-k/sphinxjp.themes.basicstrap',
     license='MIT',
-    namespace_packages=['swri_sphinx_theme, 'swri_sphinx_theme.themes'],
+    namespace_packages=['swri_sphinx_theme', 'swri_sphinx_theme.themes'],
     packages=find_packages('src', exclude=['tests']),
     package_dir={'': 'src'},
     cmdclass={'test': PyTest},
