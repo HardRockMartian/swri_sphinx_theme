@@ -1,0 +1,14 @@
+Authors
+=======
+
+Sphinx template, css, packaging
+-------------------------------
+* tell-k <ffk2005 at gmail.com>
+
+Contributors
+-------------------------------
+
+Great thanks!
+
+* pierre-rouanet
+* westurner
