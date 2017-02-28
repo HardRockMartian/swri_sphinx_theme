@@ -28,7 +28,7 @@ class PyTest(TestCommand):
 here = os.path.dirname(__file__)
 
 version_regex = re.compile(r".*__version__ = '(.*?)'", re.S)
-version_script = os.path.join(here, 'src', 'sphinxjp',
+version_script = os.path.join(here, 'src', 'swri_sphinx_theme',
                               'themes', 'basicstrap', '__init__.py')
 version = version_regex.match(open(version_script, 'r').read()).group(1)
 
