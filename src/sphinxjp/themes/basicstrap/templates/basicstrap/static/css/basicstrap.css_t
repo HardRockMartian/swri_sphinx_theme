@@ -1,6 +1,12 @@
 /*  Bootstrap
     ------------------------------------------------------- */
 
+/* AE: Trying for universal text justification. */
+body {
+   text-align:justify;
+}
+
+
 /*  apply font awesome
     ------------------------------------------------------- */
 
