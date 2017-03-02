@@ -59,7 +59,7 @@
 }
 
 .swri-logo {
-    background-image: url('../images/swri-logo-91x40.gif');
+    background-image: url('../img/swri-logo-91x40.gif');
     background-position: left center;
     background-repeat: no-repeat;
     padding-left: 91px; /* Adjust according to image size to push text across. */
@@ -70,7 +70,7 @@
 
 .header {
     text-align: center;
-    background: url("../images/flatirons.jpg") no-repeat center center;
+    background: url("../img/flatirons.jpg") no-repeat center center;
     background-size: cover;
     padding: 1rem; }
 .header .main-header {
@@ -148,7 +148,7 @@
 
 body {
     /* background-color: lightgrey; */
-    background-image: url("../images/gray-paper.png");
+    background-image: url("../img/gray-paper.png");
     padding-top: 30px;
 }
 
