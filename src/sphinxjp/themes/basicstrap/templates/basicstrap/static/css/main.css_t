@@ -31,7 +31,6 @@
     text-transform: uppercase;
     margin-top: 2.5rem;
     margin-bottom: 10px;
-
 }
 
 .footer p, .footer a {
@@ -45,7 +44,7 @@
 @media only screen and (min-width: 40.063em) {
     .footer .columns:nth-child(n+2) {
         border-left: 1px solid #b3b3b3;
-        min-height: 280px;
+        min-height: 200px;
     }
 
 }
@@ -59,10 +58,19 @@
 }
 
 .swri-logo {
-    background-image: url('../img/swri-logo-91x40.gif');
-    background-position: left center;
+    background-image: url('../images/swri-logot.gif');
+    background-position: center;
     background-repeat: no-repeat;
-    padding-left: 91px; /* Adjust according to image size to push text across. */
+    background-size: 60%;
+    padding-left: 200px; /* Adjust according to image size to push text across. */
+}
+
+.boulder-logo {
+    background-image: url('../images/swri_boulder_logot.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    padding-left: 300px; /* Adjust according to image size to push text across. */
 }
 
 
@@ -70,7 +78,7 @@
 
 .header {
     text-align: center;
-    background: url("../img/flatirons.jpg") no-repeat center center;
+    background: url("../images/montage1b.png") no-repeat top left;
     background-size: cover;
     padding: 1rem; }
 .header .main-header {
@@ -148,7 +156,7 @@
 
 body {
     /* background-color: lightgrey; */
-    background-image: url("../img/gray-paper.png");
+    background-image: url("../images/gray-paper.png");
     padding-top: 30px;
 }
 
@@ -158,6 +166,8 @@ body {
     -moz-box-shadow: 7px 8px 6px -6px black;
     box-shadow: 7px 8px 6px -6px black;
     height:auto;
+    font-weight:400; 
+    background-image: url("../images/lightpaper.png");
 }
 
 #shadow_header {
@@ -171,3 +181,20 @@ body {
     -moz-box-shadow: 7px 8px 6px -6px black;
     box-shadow: 7px 8px 6px -6px black;
 }
+
+#colsii {
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 20px;
+    column-count: 2;
+    column-gap: 20px;
+}
+
+#officeback {
+    color: blue;
+    background: url('../images/boulder_office_shott.png') no-repeat #eee;
+    background-size: cover;
+}
+
+
