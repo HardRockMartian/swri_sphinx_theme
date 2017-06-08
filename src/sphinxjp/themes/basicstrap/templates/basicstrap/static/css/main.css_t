@@ -78,7 +78,7 @@
 
 .header {
     text-align: center;
-    background: url("../images/montage1b.png") no-repeat top left;
+    background: url("../images/montage1c.png") no-repeat top left;
     background-size: cover;
     padding: 1rem; }
 .header .main-header {
