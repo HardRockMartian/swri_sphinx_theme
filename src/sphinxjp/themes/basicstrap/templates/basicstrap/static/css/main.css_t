@@ -58,7 +58,7 @@
 }
 
 .swri-logo {
-    background-image: url('../images/swri-logot.gif');
+    background-image: url('http://www.boulder.swri.edu/static/images/swri-logot.gif');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 60%;
@@ -66,7 +66,7 @@
 }
 
 .boulder-logo {
-    background-image: url('../images/swri_boulder_logot.gif');
+    background-image: url('http://www.boulder.swri.edu/static/images/swri_boulder_logot.gif');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 50%;
@@ -78,7 +78,7 @@
 
 .header {
     text-align: center;
-    background: url("../images/montage1c.png") no-repeat top left;
+    background: url("http://www.boulder.swri.edu/static/images/montage1c.png") no-repeat top left;
     background-size: cover;
     padding: 1rem; }
 .header .main-header {
@@ -156,7 +156,7 @@
 
 body {
     /* background-color: lightgrey; */
-    background-image: url("../images/swri_blocks.png");
+    background-image: url("http://www.boulder.swri.edu/static/images/swri_blocks.png");
     padding-top: 30px;
 }
 
@@ -167,7 +167,7 @@ body {
     box-shadow: 7px 8px 6px -6px black;
     height:auto;
     font-weight:400; 
-    background-image: url("../images/lightpaper.png");
+    background-image: url("http://www.boulder.swri.edu/static/images/lightpaper.png");
 }
 
 #shadow_header {
@@ -203,7 +203,7 @@ body {
 
 .card-user-container {
   margin-bottom: 1rem;
-  /* background-image: url("../images/gray-paper.png"); */
+  /* background-image: url("http://www.boulder.swri.edu/static/images/gray-paper.png"); */
   -webkit-box-shadow: 7ps 8px 6px -6px black;
   -moz-box-shadow: 7px 8px 6px -6px black;
   box-shadow: 7px 8px 6px -6px black;
