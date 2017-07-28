@@ -121,7 +121,7 @@
 </script>
 {%- for scriptfile in script_files %}
     {%- if scriptfile == '_static/jquery.js' %}
-    <script type="text/javascript" src="{{ pathto('_static/js/jquery.min.js', 1) }}"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     {%- else %}
     <script type="text/javascript" src="{{ pathto(scriptfile, 1) }}"></script>
     {%- endif %}
@@ -232,8 +232,8 @@
     {%- endblock %}
     {%- block extrahead %} {% endblock %}
 
-    <link rel="stylesheet" href="_static/css/foundation.css">
-    <link rel="stylesheet" href="_static/css/main.css">
+    <link rel="stylesheet" href="http://www.boulder.swri.edu/static/css/foundation.css">
+    <link rel="stylesheet" href="http://www.boulder.swri.edu/static/css/main.css">
   </head>
   <body role="document">
 
@@ -242,16 +242,16 @@
 
 <div class="row" style="padding-bottom:2rem">
 <header class="header" id="shadow_header">
-<a style="display:block" href="http://data.boulder.swri.edu/anthony/dept_website/">
+<a style="display:block" href="http://www.boulder.swri.edu/">
     <h1 class="main-header">
         Planetary Science Directorate
         </h1>
         <font size="4" color="gray">SOUTHWEST RESEARCH INSTITUTE, BOULDER OFFICE</font>
 </a>
   <ul class="header-subnav">
-    <li><a href="../doss/index.html">Space Research</a></li>
-    <li><a href="../doso/index.html">Missions &amp; Operations</a></li>
-    <li><a href="../about/index.html">About Us</a></li>
+    <li><a href="http://www.boulder.swri.edu/doss/index.html">Space Research</a></li>
+    <li><a href="http://www.boulder.swri.edu/doso/index.html">Missions &amp; Operations</a></li>
+    <li><a href="http://www.boulder.swri.edu/about/index.html">About Us</a></li>
 
   </ul>
 
@@ -517,13 +517,9 @@
  </footer>
  
 
-
-
-    <script src="_static/js/what-input.js"></script>
-    <script src="static/js/foundation.js"></script>
-    <script src="_static/js/app.js"></script>
-
-
+    <script src="http://www.boulder.swri.edu/static/js/vendor/what-input.js"></script>
+    <script src="http://www.boulder.swri.edu/static/js/vendor/foundation.min.js"></script>
+    <script src="http://www.boulder.swri.edu/static/js/app.js"></script>
 
 
   </body>
