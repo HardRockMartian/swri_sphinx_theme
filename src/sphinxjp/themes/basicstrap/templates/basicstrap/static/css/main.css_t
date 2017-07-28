@@ -156,7 +156,7 @@
 
 body {
     /* background-color: lightgrey; */
-    background-image: url("../images/gray-paper.png");
+    background-image: url("../images/swri_blocks.png");
     padding-top: 30px;
 }
 
@@ -203,7 +203,11 @@ body {
 
 .card-user-container {
   margin-bottom: 1rem;
-  background-color: #fefefe;
+  /* background-image: url("../images/gray-paper.png"); */
+  -webkit-box-shadow: 7ps 8px 6px -6px black;
+  -moz-box-shadow: 7px 8px 6px -6px black;
+  box-shadow: 7px 8px 6px -6px black;
+  background-color: #d3d3d3;
   color: #0a0a0a;
   overflow: hidden;
   padding: 0;
