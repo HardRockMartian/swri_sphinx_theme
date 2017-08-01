@@ -189,6 +189,7 @@ body {
     -webkit-column-gap: 20px;
     column-count: 2;
     column-gap: 20px;
+    list-style-type: none;
 }
 
 /* for old office background. TBRemoved */
